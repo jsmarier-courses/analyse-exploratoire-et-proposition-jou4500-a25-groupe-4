@@ -27,6 +27,36 @@ Pour créer une liste non ordonnée, il suffit de mettre une étoile (`*`) devan
 Insérez votre texte ici.
 
 ## 2. Obtenir les données
+Expliquer comment importer les données dans google feuilles de calcul
+Tout d’abord, nous sommes allés dans les instructions de l’analyse exploratoire et nous avons cliqué double sur Utiliser ce fichier CSV et ensuite on a sélectionné Télécharger le fichier lié. Ensuite, après l’avoir téléchargé dans les téléchargements, nous avons été dans google feuilles de calcul et on a ouvert une nouvelle feuille de calcul. Par la suite, on a sélectionné l’option Fichier et ensuite Importer. On est allé dans téléverser et on a glissé le téléchargement des données. Finalement, nous avons pesé sur l'importation des données. 
+
+Inclure une capture d’écran de votre jeu de données dans google après l’importation
+faut voir les titres de colonnes (première ligne) et les 20 à 30 lignes dessous. (Et n'oubliez pas de mettre l'image dans le même dossier que vos fichiers .md.)
+
+Veuillez inclure un lien public vers votre document Google Feuilles de calcul.
+https://docs.google.com/spreadsheets/d/1lzWKCiK3wRbvcReweSwHE6eMn_tIX7ZD1PHe1a8lKak/edit?usp=sharing 
+
+
+Faites des observations générales concernant le jeu de données :
+Combien y a-t-il de colonnes et de lignes?
+Colonnes: 26
+Lignes: 2603
+Les données semblent-elles propres?
+Non les données ne sont pas propres, et ne sont pas très bien organisés 
+Nous avons remarqué que les donnés sont des fois un peu inutiles ou même qu’elles sont absentes
+Nous avons aussi remarqué qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, types de logements, types de revenues
+Nous avons aussi remarqué et on a ete tres decu du fait qu’il n'y a pas de données par rapport au québec, tandis que le texte discutais de la relation entre travailler en ontario et habiter au québec et vis versa
+
+
+Faites des observations spécifiques sur au moins trois colonnes : ????
+À quels types de variables avons-nous affaire? Soyez spécifique. Par exemple : « La colonne A comporte des variables nominales avec les noms de tous les participants à l’étude. La colonne B inclut les âges des participants en tant que variables discrètes. »
+Est-ce que quelque chose est manquant, extraordinaire, surprenant?
+
+
+Formulez au moins une question ou une hypothèse qui vous vient à l’esprit lorsque vous examinez les données brutes.
+Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire dans la ville d’ottawa?
+
+
 
 Utilisez deux croisillons (`##`) pour créer un intertitre de niveau 2 comme celui-ci.
 
