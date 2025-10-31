@@ -50,6 +50,24 @@ C'est aussi comme ça qu'on crée une liste ordonnée. Il suffit de mettre `1.` 
 
 ### 3.1. Analyse VIMA
 
+Nous avons réalisé notre analyse VIMA sur les données des lignes 757, 759, 760, 761, 762, 765, 767, 768 ainsi que les lignes 1951 à 1956. De façon générale, il s’agit des données que nous pensons qui pourraient nous être utiles dans nos recherches. 
+
+Avant même d’avoir recours à diverses méthodes pour analyser nos données, nous avons remarqué quelques détails. 
+
+Plusieurs données présentaient des erreurs de formatage. À titre d’exemple, les valeurs dans la colonne 757 n'étaient pas formatées de la même façon. Certaines de ces données étaient des chiffres alors que d’autres étaient en fait des dates. De plus, nous avons remarqué que les colonnes M et N présentaient souvent des erreurs de formatage majeures, qui rendaient parfois les valeurs aberrantes et, ainsi, invalides. Par exemple, toujours dans la ligne 757 qui est censée afficher un pourcentage, la valeur de la cellule à la colonne M affiche le chiffre 45 994. Comparativement aux autres données qui ensemble font une moyenne de 10,15%, la valeur de 45 000% ressort du lot et est impossible dans ce contexte.
+
+Une fois les données nettoyées et ces détails réglés, nous avons eu la chance de procéder à des méthodes plus poussées pour faire notre analyse VIMA détaillée. 
+
+À premier coup d'œil, les données des lignes que nous avons ciblées semblent toutes être valides. Il n’y a pas de données manquantes, et il ne semble pas y avoir de données invalides ou aberrantes.
+
+Afin de confirmer ce constat, nous avons produit un premier graphique à l’aide des données des colonnes 7 et 8 de notre nouveau tableau nettoyé. Ce graphique, ci-dessous, nous a permis de confirmer qu’il n’a évidemment pas de valeur aberrante. De plus, il n’y a pas de valeurs invalides qui furent soulevées. 
+
+
+
+Ensuite, afin de vérifier l’exactitude des données, nous avons procédé à divers calculs afin de voir si les chiffres de l’ensemble des quartiers coordonnaient avec les données pour l’ensemble de la Ville d’Ottawa. Nos résultats furent assez intéressants. La plupart des sommes, des moyennes ou des médianes de l’ensemble des quartiers ne correspondent pas aux données pour l’ensemble de la Ville d’Ottawa, mais la différence est parfois minime. 
+
+Autrement, les données semblent valides et exactes. 
+
 Utilisez trois croisillons (`###`) pour créer un intertitre de niveau 3 comme celui-ci. Je vous prie de suivre ce modèle en ce qui a trait aux intertitres de niveaux 1 et 2. Toutefois, je vous laisse le loisir d'utiliser les intertitres de niveau 3 comme bon vous semble.
 
 Insérez votre texte ici.
