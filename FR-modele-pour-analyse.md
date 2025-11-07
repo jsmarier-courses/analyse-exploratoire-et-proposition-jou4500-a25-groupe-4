@@ -131,10 +131,12 @@ Insérez votre texte ici.
 ## 4. Récit potentiel
 
 Les articles suivants vont nous permettre de comprendre la situation des logements au Canada mais plus spécifiquement à Ottawa. Afin de vraiment raconter une histoire et bien comprendre nos données, on doit comprendre la situation de logement afin d'avoir des informations précises sur plusieurs aspects qui peuvent influencer les choix des locataires ou propriétaires. Nous avons trouvé principalement des articles de journaux et des articles sur des sites de logements. Dans notre cas, ce sont des sources assez pertinentes, car elles viennent de journalistes et de professionnels dans le domaine du logement. Pour notre projet, nous examinons s’il est plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements, donc toutes ces sources seront des informations qui vont nous permettre de bâtir une conclusion concise et bien soutenue.  
-INCLURE DES LECTURES DU COURS!!!!!!!!!!!!
-ex: le site statistiques….
 
 Desjardins, S. (2025, February 11). Louer ou acheter: devenir propriétaire n’est pas un choix logique. Le Journal De Montréal. https://www.journaldemontreal.com/2025/02/09/louer-ou-acheter-devenir-proprietaire-nest-pas-un-choix-logique 
+
+Du Canada Statistique Canada, G. (2021, September 2). Les statistiques : le pouvoir des données! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-fra.htm 
+
+Eads, D. (2016, October 15). How to “interview” a big pile of data. NPR. https://www.npr.org/sections/npr-training/2025/05/29/g-s1-67278/how-to-interview-a-big-pile-of-data 
 
 Info, R. (2025, February 25). Élections en Ontario : la crise du logement vue par les candidats de la région d’Ottawa. Radio-Canada. https://ici.radio-canada.ca/nouvelle/2143463/logement-ontario-ottawa-crise-election   
 
