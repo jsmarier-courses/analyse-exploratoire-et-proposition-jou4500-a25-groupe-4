@@ -35,6 +35,7 @@ Tout d’abord, nous sommes allés dans les instructions de l’analyse explorat
 
 Inclure une capture d’écran de votre jeu de données dans google après l’importation
 faut voir les titres de colonnes (première ligne) et les 20 à 30 lignes dessous. (Et n'oubliez pas de mettre l'image dans le même dossier que vos fichiers .md.)
+
 ![](Capture d'ecran.png)<br>
 *Blablabla*
 
