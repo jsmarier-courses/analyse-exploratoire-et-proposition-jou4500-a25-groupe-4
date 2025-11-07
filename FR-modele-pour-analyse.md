@@ -38,22 +38,13 @@ https://docs.google.com/spreadsheets/d/1lzWKCiK3wRbvcReweSwHE6eMn_tIX7ZD1PHe1a8l
 
 
 Faites des observations générales concernant le jeu de données :
-Combien y a-t-il de colonnes et de lignes?
-Colonnes: 26
-Lignes: 2603
-Les données semblent-elles propres?
-Non les données ne sont pas propres, et ne sont pas très bien organisés 
-Nous avons remarqué que les donnés sont des fois un peu inutiles ou même qu’elles sont absentes
-Nous avons aussi remarqué qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, types de logements, types de revenues
-Nous avons aussi remarqué et on a ete tres decu du fait qu’il n'y a pas de données par rapport au québec, tandis que le texte discutais de la relation entre travailler en ontario et habiter au québec et vis versa
 
+Dans le jeu de données, il y a 26 colonnes et 2503 lignes. À première vue, les données n’étaient pas propres et n’étaient pas très bien organisées. Nous avons aussi remarqué qu’il y beaucoup de données qui nous étaient peu utiles ou même absentes. Ensuite, notre équipe à fait comme observation qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, des types de logements et aux types de revenus. Finalement, nous avons aussi remarqué et on a été très déçu du fait qu’il n'y a pas de données par rapport au Québec, tandis que le texte discutait de la relation entre travailler en Ontario et habiter au Québec et vis versa.
 
-Faites des observations spécifiques sur au moins trois colonnes : ????
-À quels types de variables avons-nous affaire? Soyez spécifique. Par exemple : « La colonne A comporte des variables nominales avec les noms de tous les participants à l’étude. La colonne B inclut les âges des participants en tant que variables discrètes. »
-Est-ce que quelque chose est manquant, extraordinaire, surprenant?
-
+ Dans notre jeu de données, nous avons affaire avec différents types de variables. Tout d’abord, dans notre jeu de donnés utile pour notre histoire, les frais de logement de la colonne A (1-5) représentent des variables quantitatives continues. Ensuite,  les % des ménages propriétaires ou locataires, de la colonne A (7-8) représentent aussi des variables continues. Pour ajouter, le restant de nos données ce sont aussi des variables quantitatives continues. Les titres des colonnes B à Z sont plutôt des variables qualitatives nominales.
 
 Formulez au moins une question ou une hypothèse qui vous vient à l’esprit lorsque vous examinez les données brutes.
+
 Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire dans la ville d’ottawa?
 
 
