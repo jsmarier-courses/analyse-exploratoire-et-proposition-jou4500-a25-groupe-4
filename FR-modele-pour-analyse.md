@@ -24,7 +24,10 @@ Pour créer une liste non ordonnée, il suffit de mettre une étoile (`*`) devan
 
 ## 1. Introduction
 
-Insérez votre texte ici.
+Notre but pour ce travail est d’analyser la réalité du logement selon les différents quartiers d’Ottawa. Nous tenterons de répondre à la question: est-il plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements?
+Nous utiliserons le jeu de données collecté par Statistique Canada dans le cadre des initiatives de transparence municipale. Ce jeu de données contient plusieurs types de renseignements : les prix médians des propriétés, les loyers moyens, ainsi que d’autres informations socioéconomiques par quartier. 
+L’analyse que nous tenterons de faire sera séparée en 3 étapes. La première sera de nettoyer le jeu de données pour s’assurer de garder seulement l’essentiel pour nos recherches. Ensuite, nous analyserons la position des locataires et celle des propriétaires pour comparer laquelle sont plus avantageuses pour un citoyen. La dernière étape sera alors d'interpréter les résultats pour répondre à notre question de départ.
+
 
 ## 2. Obtenir les données
 Expliquer comment importer les données dans google feuilles de calcul
