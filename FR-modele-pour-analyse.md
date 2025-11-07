@@ -140,6 +140,7 @@ Ottawa, J. P.-. R. I. K., & Polonski. (2023, November 14). Meet Jason Polonski �
 
 https://www.cpacanada.ca/fr/nouvelles/analyse/acheter-louer 
 
+
 De quoi avez-vous besoin pour raconter cette histoire?
 
 Afin que notre analyse soit complète et solide, nous avons quelques aspects à explorer;
@@ -150,7 +151,9 @@ Qu’est-ce que la ville fait pour aider ses citoyens? Quelles sont les mesures 
 Visualisation des données
 Pour mieux comprendre notre analyse, nous allons créer des cartes interactives des prix médians et des loyers moyens, des graphiques qui vont comparer l’évolution du coût du logement et le revenu médian. De plus, nous allons pouvoir utiliser le graphique split bar pour voir clairement les différences entre locataire et propriétaire.
 
+
 Qui pourriez-vous interviewer à ce sujet?
+
 Nous pourrions interview:
 Citoyens 
 Des locataires et propriétaire dans différents secteurs d’Ottawa
