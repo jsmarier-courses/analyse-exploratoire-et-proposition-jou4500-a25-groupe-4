@@ -34,20 +34,6 @@ Dans le jeu de données, il y a 26 colonnes et 2503 lignes. À première vue, le
 Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire dans la ville d’ottawa?
 
 
-
-Utilisez deux croisillons (`##`) pour créer un intertitre de niveau 2 comme celui-ci.
-
-**Voici quelques exemples de fonctions et de lignes de code mises dans des boîtes grises :**
-
-1. Si vous nommez une fonction, mettez là à l'intérieur de guillemets « inclinés » comme ceci : `IMPORTHTML`.
-1. Si vous voulez inclure une ligne de code complète, faites la même chose, mais avec tout le code : `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternativement, vous pouvez mettre le code dans une boîte indépendante en utilisant le modèle de code ci-dessous :
-
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-C'est aussi comme ça qu'on crée une liste ordonnée. Il suffit de mettre `1.` devant chaque item.
-
 ## 3. Comprendre les données
 
 ### 3.1. Analyse VIMA
@@ -68,18 +54,7 @@ Ensuite, afin de vérifier l’exactitude des données, nous avons procédé à 
 
 Autrement, les données semblent valides et exactes. 
 
-______________________________________________________________________
-______________________________________________________________________
 
-Utilisez trois croisillons (`###`) pour créer un intertitre de niveau 3 comme celui-ci. Je vous prie de suivre ce modèle en ce qui a trait aux intertitres de niveaux 1 et 2. Toutefois, je vous laisse le loisir d'utiliser les intertitres de niveau 3 comme bon vous semble.
-
-Insérez votre texte ici.
-
-Appuyez vos affirmations en citant les sources appropriées. Veuillez suivre les [normes APA en matière d'attribution dans le corps du texte](https://apastyle.apa.org/style-grammar-guidelines/citations).
-
-**Par exemple :**
-
-Comme l'affirme Cairo (2016), une visualisation de données doit être véridique...
 
 ### 3.2. Nettoyage des données
 
@@ -144,8 +119,7 @@ Celui-ci semble indiquer que les plus grandes différences entre les locataires 
 
 C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analyse plus poussée des données afin de voir si d’autres variables, comme le revenu d’emploi moyen ou le pourcentage de gens travaillant à temps plein ou à temps partiel, pourrait expliquer cette différence. 
 
-______________________________________________________________________
-______________________________________________________________________
+
 ## 4. Récit potentiel
 
 Les articles suivants vont nous permettre de comprendre la situation des logements au Canada mais plus spécifiquement à Ottawa. Afin de vraiment raconter une histoire et bien comprendre nos données, on doit comprendre la situation de logement afin d'avoir des informations précises sur plusieurs aspects qui peuvent influencer les choix des locataires ou propriétaires. Nous avons trouvé principalement des articles de journaux et des articles sur des sites de logements. Dans notre cas, ce sont des sources assez pertinentes, car elles viennent de journalistes et de professionnels dans le domaine du logement. Pour notre projet, nous examinons s’il est plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements, donc toutes ces sources seront des informations qui vont nous permettre de bâtir une conclusion concise et bien soutenue.  
@@ -179,13 +153,13 @@ Pour mieux comprendre notre analyse, nous allons créer des cartes interactives 
 **Qui pourriez-vous interviewer à ce sujet?**
 
 Nous pourrions interview:
-Citoyens 
-Des locataires et propriétaire dans différents secteurs d’Ottawa
-Agent de terrain
-Des courtiers immobiliers ou gestionnaire d’immeubles pour discuter du marché
-Experts ou chercheur
-Professeur en urbanisme à l’université d’Ottawa: Carolyn Whitzman
-Analystes de la SCHL: encore à trouver…
+1. Citoyens 
+1. Des locataires et propriétaire dans différents secteurs d’Ottawa
+1. Agent de terrain
+1. Des courtiers immobiliers ou gestionnaire d’immeubles pour discuter du marché
+1. Experts ou chercheur
+1. Professeur en urbanisme à l’université d’Ottawa: Carolyn Whitzman
+1. Analystes de la SCHL: encore à trouver…
 
 
 ## 5. Conclusion
@@ -207,8 +181,4 @@ A notre avis, notre travail s’est bien passé. On trouve que nous avons trouv�
 
 ## 6. Références
 
-Veuillez inclure une liste de vos références ici. Assurez-vous de suivre les [normes APA pour les références](https://apastyle.apa.org/style-grammar-guidelines/references). Les retraits négatifs (*hanging paragraphs*) ne sont pas nécessaires. Le [guide sur l'adaptation APA](https://arts.uottawa.ca/lettres/sites/arts.uottawa.ca.lettres/files/cartu-outils-de-redaction-adaptation-apa.pdf) de l'Université d'Ottawa pourrait également vous être utile.
 
-**Voici un exemple :**
-
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
