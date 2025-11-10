@@ -1,26 +1,9 @@
-**Date**<br>
-**Cote et nom du cours**<br>
-**Prénom et nom de l'étudiant(e)**<br>
+**11 Novembre 2025**<br>
+**JOU4500 et Journalisme Numérique II**<br>
+**Nikita Scholz, Dania Maisonneuve, Kelli-Anne Piché**<br>
 **Présenté à Jean-Sébastien Marier**<br>
 
 # Analyse exploratoire de données (AED) et proposition
-
-Utilisez un croisillon (`#`) pour créer un intertitre de niveau 1 comme celui-ci.
-
-## Avant-propos
-
-Pour ce travail, vous devez extraire des données d’un site Internet ou d’une base de données. Vous devez ensuite nettoyer et analyser votre jeu de données, trouver une histoire potentielle et créer une visualisation. Votre travail doit clairement expliquer votre processus. Vous devez écrire environ 1500 à 2000 mots et inclure des captures d’écran montrant les différentes étapes de votre analyse. Votre travail doit être rédigé avec le format Markdown et être publié sur GitHub.
-
-J'assigne différentes versions de ce projet à mes étudiants en journalisme numérique et en « data storytelling » depuis déjà quelques années. La structure générale de ce travail est basée sur celle du [*Guide du datajournalisme*](http://jplusplus.github.io/guide-du-datajournalisme/index.html). La présente version est également inspirée du programme [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) offert par l'Université de la Colombie-Britannique (UBC).
-
-**Voici quelques ressources utiles pour ce travail :**
-
-* [Page *Syntaxe de base pour l’écriture et la mise en forme* de GitHub](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [Le répertoire modèle pour ce projet au cas où vous effaceriez quelque chose par accident](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
-
-Avez-vous remarqué comment créer un hyperlien? En langage Markdown, on met le texte cliquable entre une paire de crochets et l'adresse URL entre parenthèses.
-
-Pour créer une liste non ordonnée, il suffit de mettre une étoile (`*`) devant chaque item.
 
 ## 1. Introduction
 
@@ -54,11 +37,6 @@ Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire da
 
 
 Utilisez deux croisillons (`##`) pour créer un intertitre de niveau 2 comme celui-ci.
-
-Utilisez le modèle de code ci-dessous pour insérer une capture d'écran. Vos images doivent être sauvegardées dans le même dossier que votre fichier `.md`.
-
-![](import-screen-capture.png)<br>
-*Figure 1 : La fenêtre d'importation d'un fichier de Google Feuilles de calcul.*
 
 **Voici quelques exemples de fonctions et de lignes de code mises dans des boîtes grises :**
 
@@ -165,19 +143,6 @@ C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analy
 
 ______________________________________________________________________
 ______________________________________________________________________
-
-Insérez votre texte ici.
-
-**Cette section doit inclure une capture d'écran de votre tableau croisé dynamique, comme ceci :**
-
-![](pivot-table-screen-capture.png)<br>
-*Figure 2 : Ce tableau croisé dynamique montre...*
-
-**Cette section doit aussi inclure une capture d'écran de votre graphique exploratoire, comme ceci :**
-
-![](chart-screen-capture.png)<br>
-*Figure 3 : Ce graphique exploratoire montre...*
-
 ## 4. Récit potentiel
 
 Les articles suivants vont nous permettre de comprendre la situation des logements au Canada mais plus spécifiquement à Ottawa. Afin de vraiment raconter une histoire et bien comprendre nos données, on doit comprendre la situation de logement afin d'avoir des informations précises sur plusieurs aspects qui peuvent influencer les choix des locataires ou propriétaires. Nous avons trouvé principalement des articles de journaux et des articles sur des sites de logements. Dans notre cas, ce sont des sources assez pertinentes, car elles viennent de journalistes et de professionnels dans le domaine du logement. Pour notre projet, nous examinons s’il est plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements, donc toutes ces sources seront des informations qui vont nous permettre de bâtir une conclusion concise et bien soutenue.  
