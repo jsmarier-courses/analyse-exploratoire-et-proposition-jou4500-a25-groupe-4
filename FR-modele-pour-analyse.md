@@ -74,8 +74,6 @@ C'est aussi comme ça qu'on crée une liste ordonnée. Il suffit de mettre `1.` 
 
 ### 3.1. Analyse VIMA
 
-Ceci est un test afin de voir si Git Hub fonctionne. BLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA BLABLABLABLA 
-
 Nous avons réalisé notre analyse VIMA sur les données des lignes 757, 759, 760, 761, 762, 765, 767, 768 ainsi que les lignes 1951 à 1956. De façon générale, il s’agit des données que nous pensons qui pourraient nous être utiles dans nos recherches. 
 
 Avant même d’avoir recours à diverses méthodes pour analyser nos données, nous avons remarqué quelques détails. 
@@ -88,11 +86,12 @@ Une fois les données nettoyées et ces détails réglés, nous avons eu la chan
 
 Afin de confirmer ce constat, nous avons produit un premier graphique à l’aide des données des colonnes 7 et 8 de notre nouveau tableau nettoyé. Ce graphique, ci-dessous, nous a permis de confirmer qu’il n’a évidemment pas de valeur aberrante. De plus, il n’y a pas de valeurs invalides qui furent soulevées. 
 
-
-
 Ensuite, afin de vérifier l’exactitude des données, nous avons procédé à divers calculs afin de voir si les chiffres de l’ensemble des quartiers coordonnaient avec les données pour l’ensemble de la Ville d’Ottawa. Nos résultats furent assez intéressants. La plupart des sommes, des moyennes ou des médianes de l’ensemble des quartiers ne correspondent pas aux données pour l’ensemble de la Ville d’Ottawa, mais la différence est parfois minime. 
 
 Autrement, les données semblent valides et exactes. 
+
+______________________________________________________________________
+______________________________________________________________________
 
 Utilisez trois croisillons (`###`) pour créer un intertitre de niveau 3 comme celui-ci. Je vous prie de suivre ce modèle en ce qui a trait aux intertitres de niveaux 1 et 2. Toutefois, je vous laisse le loisir d'utiliser les intertitres de niveau 3 comme bon vous semble.
 
@@ -109,6 +108,62 @@ Comme l'affirme Cairo (2016), une visualisation de données doit être véridiqu
 Insérez votre texte ici.
 
 ### 3.3. Analyse exploratoire des données (AED)
+
+Nous avons concentré notre analyse exploratoire sur les deux variables suivantes : 
+* % de ménages locataires consacrant 30% ou plus de leur revenu aux frais de logement
+* % de ménages propriétaires consacrant 30% ou plus de leur revenu au frais de logement
+
+À notre avis, il s’agit des meilleures variables pour nous aider à comprendre s’il est plus plus avantageux d’être propriétaire ou locataire à Ottawa. C’est une chose que les prix des logements soient élevés ou non, mais il en est tout autre si les individus doivent dépenser plus de 30% de leur salaire en frais de logement, ce qui leur laisse moins d’argent pour d’autres dépenses essentielles. 
+
+Le fil conducteur de notre récit nous est apparu comme une évidence. Dès notre analyse VIMA, nous avons remarqué la différence marquante entre les locataires qui dépensent plus de 30% de leur revenu en frais de logement et les propriétaires, et ce, dans chaque quartier (AED - Graphique 1). Ces statistiques ont suscité en nous plusieurs questions. Nous tenterons donc de mieux comprendre ce phénomène lors de notre récit. 
+
+![alt text](<AED - Graphique 1.png>)
+
+Nous nous sommes donc servis de cette analyse exploratoire pour essayer de mieux comprendre la situation au sein de chaque quartier afin de nous guider dans nos recherches. Pour y arriver, nous avons modifié notre tableau nettoyé afin de pouvoir y réaliser de nouvelles opérations, comme des filtres (voir la capture d’écran ci-dessous). L’usage d’un tableau croisé ne semblait pas pertinent avec nos types de données. 
+
+![alt text](<AED - Jeu de données modifié.png>)
+
+Nous avons d’abord utilisé la formule suivante afin de connaître la différence exacte entre les ménages propriétaires et locataires au sein de chaque quartier. 
+
+```
+=H_-G_
+```
+
+À l’aide de l’outil filtre, nous avons été en mesure de déterminer les 5 quartiers où les différences sont les plus grandes : 
+1. Quartier 4 - Kanata-Nord (34,70)
+1. Quartier 6 - Stittsville (29,80)
+1. Quartier 1 - Orléans Est-Cumberland (29,40)
+1. Quartier 20 - Osgoode (28)
+1. Quartier 2 - Orléans-Ouest-Innes (27,80)
+
+Nous avons également filtré les colonnes G et H afin de connaître les quartiers où les locataires et les propriétaires sont plus nombreux à dépenser 30% de leur revenu en frais de logement. Les résultats que nous avons obtenus sont les suivants : 
+
+Locataires dépensant plus de 30% de leur revenu aux frais de logement
+1. Quartier 4 - Kanata-Nord
+1. Quartier 6 - Stitsville
+1. Quartier 1 - Orléans Est-Cumberland
+1. Quartier 12 - Rideau-Vanier
+1. Quartier 17 - Capitale
+
+Propriétaires dépensant plus de 30% de leur revenu aux frais de logement
+1. Quartier 12 - Rideau-Vanier
+1. Quartier 14 - Somerset
+1. Quarter 13 - Rideau-Rockcliffe
+1. Quartier 10 - Gloucester-Southgate
+1. Quartier 22 - Riverside Sud-Findlay Creek
+
+De plus, afin de voir la relation entre les propriétaires et les locataires dépensant plus de 30% de leur revenu en frais de logement au sein d’un même quartier, nous avons produit les graphiques circulaires ci-dessous (AED - Graphique 2). Cependant, ces statistiques font ressortir les mêmes quartiers vus plus haut, seulement dans des ordres différents.
+
+![alt text](<AED - Graphique 2.png>)
+
+Une fois ces statistiques obtenues, nous avons produit la map suivante (AED - Map) afin de voir si la dimension géographique pouvait révéler quelque chose.
+
+Celui-ci semble indiquer que les plus grandes différences entre les locataires dépensant plus de 30% de leur revenu en frais de logement et les propriétaires ont principalement lieu dans les extrémités est et ouest de la ville. Bref, un autre angle intéressant sur lequel on pourra se tourner.
+
+C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analyse plus poussée des données afin de voir si d’autres variables, comme le revenu d’emploi moyen ou le pourcentage de gens travaillant à temps plein ou à temps partiel, pourrait expliquer cette différence. 
+
+______________________________________________________________________
+______________________________________________________________________
 
 Insérez votre texte ici.
 
