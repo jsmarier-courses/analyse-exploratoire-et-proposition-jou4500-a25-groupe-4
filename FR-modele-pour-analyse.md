@@ -58,11 +58,21 @@ Autrement, les données semblent valides et exactes.
 
 ### 3.2. Nettoyage des données
 
-Nous avons utilisé l’outil de nettoyage de Google Feuille de calcul pour enlever tout espace non nécessaire, uniformiser la présentation des données, mettre tous les résultats sous le même format et supprimer certains doublons. Une fois le nettoyage complété, l’outil nous a clairement indiqué que tout était conforme et qu’aucune donnée manquante ou erronée n’était présente dans le jeu de données, assurant ainsi la fiabilité et la cohérence de notre analyse. Nous avons également figé certaines lignes et colonnes afin de faciliter la lecture du tableau lors de notre travail. Enfin, nous n’avons pas eu recours à des fonctions comme SPLIT ou CONCATENER. Nous ne trouvions pas d’utilité pour ces fonctions dans le jeu de données dont nous avions besoin.
+Nous avons utilisé l’outil de nettoyage de Google Feuille de calcul pour enlever tout espace non nécessaire, uniformiser la présentation des données, mettre tous les résultats sous le même format et supprimer certains doublons. Une fois le nettoyage complété, l’outil nous a clairement indiqué que tout était conforme et qu’aucune donnée manquante ou erronée n’était présente dans le jeu de données, assurant ainsi la fiabilité et la cohérence de notre analyse. 
 
 ![alt text](CE.nettoyage.png)
 
 ![alt text](CE.nettoyage.finale.png)
+
+Une fois cela complété, nous avons téléversé les lignes 757, 759, 760, 761, 762, 765, 767, 768 ainsi que les lignes 1951 à 1956 dans une nouvelle feuille. Par la suite, grâce à la fonction ci-dessous, nous avons inversé les lignes et les colonnes afin de pouvoir mettre des filtres sur les différentes caractéristiques. 
+
+```
+=TRANSPOSE('Données utiles'!A1:Z28)
+```
+
+Nous avons également figé certaines lignes et colonnes afin de faciliter la lecture du tableau lors de notre travail. Enfin, nous n’avons pas eu recours à des fonctions comme SPLIT ou CONCATENER. Nous ne trouvions pas d’utilité pour ces fonctions dans le jeu de données dont nous avions besoin.
+
+![alt text](<Jeu de donnée nettoyé.png>)
 
 ### 3.3. Analyse exploratoire des données (AED)
 
@@ -77,8 +87,6 @@ Le fil conducteur de notre récit nous est apparu comme une évidence. Dès notr
 ![alt text](<AED - Graphique 1.png>)
 
 Nous nous sommes donc servis de cette analyse exploratoire pour essayer de mieux comprendre la situation au sein de chaque quartier afin de nous guider dans nos recherches. Pour y arriver, nous avons modifié notre tableau nettoyé afin de pouvoir y réaliser de nouvelles opérations, comme des filtres (voir la capture d’écran ci-dessous). L’usage d’un tableau croisé ne semblait pas pertinent avec nos types de données. 
-
-![alt text](<AED - Jeu de données modifié.png>)
 
 Nous avons d’abord utilisé la formule suivante afin de connaître la différence exacte entre les ménages propriétaires et locataires au sein de chaque quartier. 
 
