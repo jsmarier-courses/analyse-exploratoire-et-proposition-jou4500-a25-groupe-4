@@ -84,7 +84,11 @@ Comme l'affirme Cairo (2016), une visualisation de données doit être véridiqu
 
 ### 3.2. Nettoyage des données
 
-Insérez votre texte ici.
+Nous avons utilisé l’outil de nettoyage de Google Feuille de calcul pour enlever tout espace non nécessaire, uniformiser la présentation des données, mettre tous les résultats sous le même format et supprimer certains doublons. Une fois le nettoyage complété, l’outil nous a clairement indiqué que tout était conforme et qu’aucune donnée manquante ou erronée n’était présente dans le jeu de données, assurant ainsi la fiabilité et la cohérence de notre analyse. Nous avons également figé certaines lignes et colonnes afin de faciliter la lecture du tableau lors de notre travail. Enfin, nous n’avons pas eu recours à des fonctions comme SPLIT ou CONCATENER. Nous ne trouvions pas d’utilité pour ces fonctions dans le jeu de données dont nous avions besoin.
+
+![alt text](CE.nettoyage.png)
+
+![alt text](CE.nettoyage.finale.png)
 
 ### 3.3. Analyse exploratoire des données (AED)
 
@@ -187,14 +191,14 @@ Analystes de la SCHL: encore à trouver…
 
 ## 5. Conclusion
 
-**Qu’est-ce qui vous a semblé le plus difficile en accomplissant ce travail?**
+**Qu’est-ce qui vous a semblé le plus difficile en accomplissant ce travail?**<br>
 Ce qui nous a semblé le plus difficile en accomplissant ce travail c’était surtout l’analyse VIMA, le nettoyage des données et aussi de tout téléverser notre travail dans GitHub/visual code. Nous avons trouvé ça difficile principalement car nous sommes toutes nouvelles dans le domaine du codage et il y avait beaucoup de données aussi, ce qui complique la compréhension. 
 
-**Quel a été l’aspect le plus gratifiant?**
+**Quel a été l’aspect le plus gratifiant?**<br>
 L’aspect le plus gratifiant était le nettoyage des données et de téléverser nos données dans GitHub/Visual code. Lorsque nous avons réussi à téléverser notre travail dans github/visual code, c'était le moment qu’on s’est senti le plus fier, car on réalisait qu’on comprend enfin comment coder.
 
-**Offrez quelques réflexions finales critiques:**
-Avez-vous identifié des lacunes dans vos propres connaissances?
+**Offrez quelques réflexions finales critiques:
+Avez-vous identifié des lacunes dans vos propres connaissances?**<br>
 Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir identifier une corrélation entre nos variables que nous analysions (% de ménages propriétaires ou locataires dépensant plus de 30% de leur revenu en frais de logement) et d’autres variables, tel que le prix moyen des loyers. 
 
 
