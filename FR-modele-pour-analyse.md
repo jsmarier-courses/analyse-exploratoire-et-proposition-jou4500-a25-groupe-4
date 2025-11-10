@@ -187,7 +187,16 @@ Analystes de la SCHL: encore à trouver…
 
 ## 5. Conclusion
 
-Insérez votre texte ici.
+**Qu’est-ce qui vous a semblé le plus difficile en accomplissant ce travail?**
+Ce qui nous a semblé le plus difficile en accomplissant ce travail c’était surtout l’analyse VIMA, le nettoyage des données et aussi de tout téléverser notre travail dans GitHub/visual code. Nous avons trouvé ça difficile principalement car nous sommes toutes nouvelles dans le domaine du codage et il y avait beaucoup de données aussi, ce qui complique la compréhension. 
+
+**Quel a été l’aspect le plus gratifiant?**
+L’aspect le plus gratifiant était le nettoyage des données et de téléverser nos données dans GitHub/Visual code. Lorsque nous avons réussi à téléverser notre travail dans github/visual code, c'était le moment qu’on s’est senti le plus fier, car on réalisait qu’on comprend enfin comment coder.
+
+**Offrez quelques réflexions finales critiques:**
+Avez-vous identifié des lacunes dans vos propres connaissances?
+Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir identifier une corrélation entre nos variables que nous analysions (% de ménages propriétaires ou locataires dépensant plus de 30% de leur revenu en frais de logement) et d’autres variables, tel que le prix moyen des loyers. 
+
 
 ## 6. Références
 
