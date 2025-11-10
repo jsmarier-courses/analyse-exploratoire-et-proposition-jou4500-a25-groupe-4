@@ -13,24 +13,23 @@ L’analyse que nous tenterons de faire sera séparée en 3 étapes. La premièr
 
 
 ## 2. Obtenir les données
-Expliquer comment importer les données dans google feuilles de calcul
+**Expliquer comment importer les données dans google feuilles de calcul**<br>
 Tout d’abord, nous sommes allés dans les instructions de l’analyse exploratoire et nous avons cliqué double sur Utiliser ce fichier CSV et ensuite on a sélectionné Télécharger le fichier lié. Ensuite, après l’avoir téléchargé dans les téléchargements, nous avons été dans google feuilles de calcul et on a ouvert une nouvelle feuille de calcul. Par la suite, on a sélectionné l’option Fichier et ensuite Importer. On est allé dans téléverser et on a glissé le téléchargement des données. Finalement, nous avons pesé sur l'importation des données. 
 
-Inclure une capture d’écran de votre jeu de données dans google après l’importation
-faut voir les titres de colonnes (première ligne) et les 20 à 30 lignes dessous. (Et n'oubliez pas de mettre l'image dans le même dossier que vos fichiers .md.)
+**Inclure une capture d’écran de votre jeu de données**<br>
 ![alt text](<Capture d'ecran.png>)
 
-Veuillez inclure un lien public vers votre document Google Feuilles de calcul.
+**Veuillez inclure un lien public vers votre document Google Feuilles de calcul.**<br>
 https://docs.google.com/spreadsheets/d/1lzWKCiK3wRbvcReweSwHE6eMn_tIX7ZD1PHe1a8lKak/edit?usp=sharing 
 
 
-Faites des observations générales concernant le jeu de données :
+**Faites des observations générales concernant le jeu de données :**
 
 Dans le jeu de données, il y a 26 colonnes et 2503 lignes. À première vue, les données n’étaient pas propres et n’étaient pas très bien organisées. Nous avons aussi remarqué qu’il y beaucoup de données qui nous étaient peu utiles ou même absentes. Ensuite, notre équipe à fait comme observation qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, des types de logements et aux types de revenus. Finalement, nous avons aussi remarqué et on a été très déçu du fait qu’il n'y a pas de données par rapport au Québec, tandis que le texte discutait de la relation entre travailler en Ontario et habiter au Québec et vis versa.
 
  Dans notre jeu de données, nous avons affaire avec différents types de variables. Tout d’abord, dans notre jeu de donnés utile pour notre histoire, les frais de logement de la colonne A (1-5) représentent des variables quantitatives continues. Ensuite,  les % des ménages propriétaires ou locataires, de la colonne A (7-8) représentent aussi des variables continues. Pour ajouter, le restant de nos données ce sont aussi des variables quantitatives continues. Les titres des colonnes B à Z sont plutôt des variables qualitatives nominales.
 
-Formulez au moins une question ou une hypothèse qui vous vient à l’esprit lorsque vous examinez les données brutes.
+**Formulez au moins une question ou une hypothèse qui vous vient à l’esprit lorsque vous examinez les données brutes.**
 
 Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire dans la ville d’ottawa?
 
@@ -166,7 +165,7 @@ Ottawa, J. P.-. R. I. K., & Polonski. (2023, November 14). Meet Jason Polonski �
 https://www.cpacanada.ca/fr/nouvelles/analyse/acheter-louer 
 
 
-De quoi avez-vous besoin pour raconter cette histoire?
+**De quoi avez-vous besoin pour raconter cette histoire?**
 
 Afin que notre analyse soit complète et solide, nous avons quelques aspects à explorer;
 Témoignage de citoyens
@@ -177,7 +176,7 @@ Visualisation des données
 Pour mieux comprendre notre analyse, nous allons créer des cartes interactives des prix médians et des loyers moyens, des graphiques qui vont comparer l’évolution du coût du logement et le revenu médian. De plus, nous allons pouvoir utiliser le graphique split bar pour voir clairement les différences entre locataire et propriétaire.
 
 
-Qui pourriez-vous interviewer à ce sujet?
+**Qui pourriez-vous interviewer à ce sujet?**
 
 Nous pourrions interview:
 Citoyens 
@@ -200,6 +199,10 @@ L’aspect le plus gratifiant était le nettoyage des données et de téléverse
 **Offrez quelques réflexions finales critiques:
 Avez-vous identifié des lacunes dans vos propres connaissances?**<br>
 Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir identifier une corrélation entre nos variables que nous analysions (% de ménages propriétaires ou locataires dépensant plus de 30% de leur revenu en frais de logement) et d’autres variables, tel que le prix moyen des loyers. 
+
+**Qu’auriez-vous pu faire différemment?** <br>
+A notre avis, notre travail s’est bien passé. On trouve que nous avons trouvé toutes les informations nécessaires pour notre analyse et nous avons réussi à tout compléter. Entre autres, nous avons réussi à séparer les parties pour que tout le monde travaille sur un élément important de l’analyse et on s’est réunis afin de tout mettre les informations ensemble. Bref, selon nous, notre analyse n’aurait pas pu être faite différemment, car elle est déjà complète. 
+
 
 
 ## 6. Références
