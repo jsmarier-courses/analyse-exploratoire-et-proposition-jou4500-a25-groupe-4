@@ -14,7 +14,7 @@ L’analyse que nous tenterons de faire sera séparée en 3 étapes. La premièr
 
 ## 2. Obtenir les données
 **Expliquer comment importer les données dans google feuilles de calcul**<br>
-Tout d’abord, nous sommes allés dans les instructions de l’analyse exploratoire et nous avons cliqué double sur Utiliser ce fichier CSV et ensuite on a sélectionné Télécharger le fichier lié. Ensuite, après l’avoir téléchargé dans les téléchargements, nous avons été dans google feuilles de calcul et on a ouvert une nouvelle feuille de calcul. Par la suite, on a sélectionné l’option Fichier et ensuite Importer. On est allé dans téléverser et on a glissé le téléchargement des données. Finalement, nous avons pesé sur l'importation des données. 
+Tout d’abord, nous sommes allés dans les instructions de l’analyse exploratoire et nous avons cliqué double sur utiliser ce fichier CSV et ensuite on a sélectionné télécharger le fichier lié. Ensuite, après l’avoir téléchargé dans les téléchargements, nous avons été dans Google feuilles de calcul et on a ouvert une nouvelle feuille de calcul. Par la suite, on a sélectionné l’option Fichier et ensuite importer. On est allé dans téléverser et on a glissé le téléchargement des données. Finalement, nous avons pesé sur l'importation des données. 
 
 
 ![alt text](<Capture d'ecran.png>)
@@ -24,9 +24,9 @@ https://docs.google.com/spreadsheets/d/1lzWKCiK3wRbvcReweSwHE6eMn_tIX7ZD1PHe1a8l
 
 **Faites des observations générales concernant le jeu de données :**
 
-Dans le jeu de données, il y a 26 colonnes et 2503 lignes. À première vue, les données n’étaient pas propres et n’étaient pas très bien organisées. Nous avons aussi remarqué qu’il y beaucoup de données qui nous étaient peu utiles ou même absentes. Ensuite, notre équipe à fait comme observation qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, des types de logements et aux types de revenus. Finalement, nous avons aussi remarqué et on a été très déçu du fait qu’il n'y a pas de données par rapport au Québec, tandis que le texte discutait de la relation entre travailler en Ontario et habiter au Québec et vis versa.
+Dans le jeu de données, il y a 26 colonnes et 2503 lignes. À première vue, les données n’étaient pas propres et n’étaient pas très bien organisées. Nous avons aussi remarqué qu’il y beaucoup de données qui nous étaient peu utiles ou mêmes absentes. Ensuite, notre équipe à fait comme observation qu’il y a beaucoup de données quant aux âges, aux langues, aux immigrants, aux types de voitures, des types de logements et aux types de revenus. Finalement, nous avons aussi remarqué et on a été très déçu du fait qu’il n'y a pas de données par rapport au Québec, tandis que le texte discutait de la relation entre travailler en Ontario et habiter au Québec et vis versa.
 
- Dans notre jeu de données, nous avons affaire avec différents types de variables. Tout d’abord, dans notre jeu de donnés utile pour notre histoire, les frais de logement de la colonne A (1-5) représentent des variables quantitatives continues. Ensuite,  les % des ménages propriétaires ou locataires, de la colonne A (7-8) représentent aussi des variables continues. Pour ajouter, le restant de nos données ce sont aussi des variables quantitatives continues. Les titres des colonnes B à Z sont plutôt des variables qualitatives nominales.
+ Dans notre jeu de données, nous avons affaire avec différents types de variables. Tout d’abord, dans notre jeu de données utile pour notre histoire, les frais de logement de la colonne A (1-5) représentent des variables quantitatives continues. Ensuite,  les % des ménages propriétaires ou locataires, de la colonne A (7-8) représentent aussi des variables continues. Pour ajouter, le restant de nos données, ce sont aussi des variables quantitatives continues. Les titres des colonnes B à Z sont plutôt des variables qualitatives nominales.
 
 **Formulez au moins une question ou une hypothèse qui vous vient à l’esprit lorsque vous examinez les données brutes.**
 
@@ -167,17 +167,17 @@ Nous pourrions interview:
 ## 5. Conclusion
 
 **Qu’est-ce qui vous a semblé le plus difficile en accomplissant ce travail?**<br>
-Ce qui nous a semblé le plus difficile en accomplissant ce travail c’était surtout l’analyse VIMA, le nettoyage des données et aussi de tout téléverser notre travail dans GitHub/visual code. Nous avons trouvé ça difficile principalement car nous sommes toutes nouvelles dans le domaine du codage et il y avait beaucoup de données aussi, ce qui complique la compréhension. 
+Ce qui nous a semblé le plus difficile en accomplissant ce travail, c’était surtout l’analyse VIMA, le nettoyage des données et aussi de tout téléverser notre travail dans GitHub/visual code. Nous avons trouvé ça difficile principalement, car nous sommes toutes nouvelles dans le domaine du codage et il y avait beaucoup de données aussi, ce qui complique la compréhension. 
 
 **Quel a été l’aspect le plus gratifiant?**<br>
-L’aspect le plus gratifiant était le nettoyage des données et de téléverser nos données dans GitHub/Visual code. Lorsque nous avons réussi à téléverser notre travail dans github/visual code, c'était le moment qu’on s’est senti le plus fier, car on réalisait qu’on comprend enfin comment coder.
+L’aspect le plus gratifiant était le nettoyage des données et de téléverser nos données dans GitHub/Visual code. Lorsque nous avons réussi à téléverser notre travail dans Github/Visual code, c'était le moment qu’on s’est senti le plus fier, car on réalisait que l'on comprend enfin comment coder.
 
 **Offrez quelques réflexions finales critiques:
 Avez-vous identifié des lacunes dans vos propres connaissances?**<br>
-Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir identifier une corrélation entre nos variables que nous analysions (% de ménages propriétaires ou locataires dépensant plus de 30% de leur revenu en frais de logement) et d’autres variables, tel que le prix moyen des loyers. 
+Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir identifier une corrélation entre nos variables que nous analysions (% de ménages propriétaires ou locataires dépensant plus de 30% de leur revenu en frais de logement) et d’autres variables, tels que le prix moyen des loyers. 
 
 **Qu’auriez-vous pu faire différemment?** <br>
-A notre avis, notre travail s’est bien passé. On trouve que nous avons trouvé toutes les informations nécessaires pour notre analyse et nous avons réussi à tout compléter. Entre autres, nous avons réussi à séparer les parties pour que tout le monde travaille sur un élément important de l’analyse et on s’est réunis afin de tout mettre les informations ensemble. Bref, selon nous, notre analyse n’aurait pas pu être faite différemment, car elle est déjà complète. 
+À notre avis, notre travail s’est bien passé. On trouve que nous avons trouvé toutes les informations nécessaires pour notre analyse et nous avons réussi à tout compléter. Entre autres, nous avons réussi à séparer les parties pour que tout le monde travaille sur un élément important de l’analyse et on s’est réunis afin de tout mettre les informations ensemble. Bref, selon nous, notre analyse n’aurait pas pu être faite différemment, car elle est déjà complète. 
 
 
 
