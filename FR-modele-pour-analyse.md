@@ -7,8 +7,8 @@
 
 ## 1. Introduction
 
-Notre but pour ce travail est d’analyser la réalité du logement selon les différents quartiers d’Ottawa. Nous tenterons de répondre à la question: est-il plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements?
-Nous utiliserons le jeu de données collecté par Statistique Canada dans le cadre des initiatives de transparence municipale. Ce jeu de données contient plusieurs types de renseignements : les prix médians des propriétés, les loyers moyens, ainsi que d’autres informations socioéconomiques par quartier. 
+Notre but pour ce travail est d’analyser la réalité du logement selon les différents quartiers d’Ottawa. Nous tenterons de répondre à la question: est-il plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements?<br>
+Nous utiliserons le jeu de données collecté par Statistique Canada dans le cadre des initiatives de transparence municipale. Ce jeu de données contient plusieurs types de renseignements : les prix médians des propriétés, les loyers moyens, ainsi que d’autres informations socioéconomiques par quartier. <br>
 L’analyse que nous tenterons de faire sera séparée en 3 étapes. La première sera de nettoyer le jeu de données pour s’assurer de garder seulement l’essentiel pour nos recherches. Ensuite, nous analyserons la position des locataires et celle des propriétaires pour comparer laquelle sont plus avantageuses pour un citoyen. La dernière étape sera alors d'interpréter les résultats pour répondre à notre question de départ.
 
 
@@ -16,10 +16,9 @@ L’analyse que nous tenterons de faire sera séparée en 3 étapes. La premièr
 **Expliquer comment importer les données dans google feuilles de calcul**<br>
 Tout d’abord, nous sommes allés dans les instructions de l’analyse exploratoire et nous avons cliqué double sur Utiliser ce fichier CSV et ensuite on a sélectionné Télécharger le fichier lié. Ensuite, après l’avoir téléchargé dans les téléchargements, nous avons été dans google feuilles de calcul et on a ouvert une nouvelle feuille de calcul. Par la suite, on a sélectionné l’option Fichier et ensuite Importer. On est allé dans téléverser et on a glissé le téléchargement des données. Finalement, nous avons pesé sur l'importation des données. 
 
-**Inclure une capture d’écran de votre jeu de données**<br>
+
 ![alt text](<Capture d'ecran.png>)
 
-**Veuillez inclure un lien public vers votre document Google Feuilles de calcul.**<br>
 https://docs.google.com/spreadsheets/d/1lzWKCiK3wRbvcReweSwHE6eMn_tIX7ZD1PHe1a8lKak/edit?usp=sharing 
 
 
@@ -126,6 +125,7 @@ C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analy
 
 Les articles suivants vont nous permettre de comprendre la situation des logements au Canada mais plus spécifiquement à Ottawa. Afin de vraiment raconter une histoire et bien comprendre nos données, on doit comprendre la situation de logement afin d'avoir des informations précises sur plusieurs aspects qui peuvent influencer les choix des locataires ou propriétaires. Nous avons trouvé principalement des articles de journaux et des articles sur des sites de logements. Dans notre cas, ce sont des sources assez pertinentes, car elles viennent de journalistes et de professionnels dans le domaine du logement. Pour notre projet, nous examinons s’il est plus avantageux d’être propriétaire ou locataire à Ottawa selon les prix des logements, donc toutes ces sources seront des informations qui vont nous permettre de bâtir une conclusion concise et bien soutenue.  
 
+**Source:**
 Desjardins, S. (2025, February 11). Louer ou acheter: devenir propriétaire n’est pas un choix logique. Le Journal De Montréal. https://www.journaldemontreal.com/2025/02/09/louer-ou-acheter-devenir-proprietaire-nest-pas-un-choix-logique 
 
 Du Canada Statistique Canada, G. (2021, September 2). Les statistiques : le pouvoir des données! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-fra.htm 
@@ -182,5 +182,22 @@ A notre avis, notre travail s’est bien passé. On trouve que nous avons trouv�
 
 
 ## 6. Références
+
+**Lectures obligatoires:**
+Du Canada Statistique Canada, G. (2021, September 2). Les statistiques : le pouvoir des données! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-fra.htm 
+
+Eads, D. (2016, October 15). How to “interview” a big pile of data. NPR. https://www.npr.org/sections/npr-training/2025/05/29/g-s1-67278/how-to-interview-a-big-pile-of-data 
+
+**Sources:**
+Desjardins, S. (2025, February 11). Louer ou acheter: devenir propriétaire n’est pas un choix logique. Le Journal De Montréal. https://www.journaldemontreal.com/2025/02/09/louer-ou-acheter-devenir-proprietaire-nest-pas-un-choix-logique 
+
+Info, R. (2025, February 25). Élections en Ontario : la crise du logement vue par les candidats de la région d’Ottawa. Radio-Canada. https://ici.radio-canada.ca/nouvelle/2143463/logement-ontario-ottawa-crise-election   
+
+Malone, K. (2025, April 15). Are Ottawa condos a good investment in 2025? Here’s what you need to know — Matt Richling - Ottawa Condos and Lofts - Ottawa Real estate for sale. Matt Richling - Ottawa Condos and Lofts - Ottawa Real Estate for Sale. https://www.mattrichling.com/blog/are-ottawa-condos-a-good-investment-in-2025-heres-what-you-need-to-know 
+
+Ottawa, J. P.-. R. I. K., & Polonski. (2023, November 14). Meet Jason Polonski – Kanata & Ottawa’s trusted real estate agent. Jason Polonski- Realtor in Kanata, Ottawa. https://ottawarealtyman.com/renting-vs-buying-in-ottawa/?srsltid=AfmBOopRTPe0wguJu-6BidNu77JeIqpCF0Rhsw_c5KqrPSvv65isi5a4 
+
+https://www.cpacanada.ca/fr/nouvelles/analyse/acheter-louer 
+
 
 
