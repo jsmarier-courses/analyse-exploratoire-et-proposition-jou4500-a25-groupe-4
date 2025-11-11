@@ -113,7 +113,9 @@ De plus, afin de voir la relation entre les propriétaires et les locataires dé
 
 ![alt text](<AED - Graphique 2.png>)
 
-Une fois ces statistiques obtenues, nous avons produit la map suivante (AED - Map) afin de voir si la dimension géographique pouvait révéler quelque chose.
+Une fois ces statistiques obtenues, nous avons produit la map suivante afin de voir si la dimension géographique pouvait révéler quelque chose.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1viz8KoXwr55C5Ikc4AuZ7YAVbemK1Xk&ehbc=2E312F" width="640" height="480"></iframe>
 
 Celui-ci semble indiquer que les plus grandes différences entre les locataires dépensant plus de 30% de leur revenu en frais de logement et les propriétaires ont principalement lieu dans les extrémités est et ouest de la ville. Bref, un autre angle intéressant sur lequel on pourra se tourner.
 
