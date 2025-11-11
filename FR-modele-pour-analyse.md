@@ -111,7 +111,7 @@ Propriétaires dépensant plus de 30% de leur revenu aux frais de logement
 
 De plus, afin de voir la relation entre les propriétaires et les locataires dépensant plus de 30% de leur revenu en frais de logement au sein d’un même quartier, nous avons produit les graphiques circulaires ci-dessous (AED - Graphique 2). Cependant, ces statistiques font ressortir les mêmes quartiers vus plus haut, seulement dans des ordres différents.
 
-![alt text](<AED - Graphique 2.png>)
+![alt text](AED.2.modifie.png)
 
 Une fois ces statistiques obtenues, nous avons produit la map suivante afin de voir si la dimension géographique pouvait révéler quelque chose.
 
