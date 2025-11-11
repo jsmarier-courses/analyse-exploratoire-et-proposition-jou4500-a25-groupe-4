@@ -37,11 +37,11 @@ Est-ce que ça vaut plus la peine d'être locataire plutôt que propriétaire da
 
 ### 3.1. Analyse VIMA
 
-Nous avons fait notre analyse VIMA sur l’ensemble des caractéristiques liées à notre sujet, comme les frais de logement et les revenus des ménages. Lorsque nous avons téléversé ces données dans notre nouvelle feuille de calcul “Données utiles”, nous avons tout de suite remarqué quelques détails.
+Nous avons fait notre analyse VIMA sur l’ensemble des caractéristiques liées à notre sujet, comme les frais de logement et les revenus des ménages. Lorsque nous avons téléversé ces données dans notre nouvelle feuille de calcul « Données utiles », nous avons tout de suite remarqué quelques détails.
 
-D’abord, plusieurs données avaient des erreurs de formatage. À titre d’exemple, les valeurs dans la ligne 7 n'étaient pas formatées de la même façon. Certaines de ces données étaient des chiffres alors que d’autres étaient des dates. De plus, nous avons remarqué que les colonnes M et N présentaient souvent des erreurs de formatage majeures (dans l’ensemble du jeu de donné), ce qui rendait parfois nos valeurs aberrantes ou invalides. Par exemple, la valeur de la cellule M:7 affiche le chiffre 45 994, alors que cette ligne est censée afficher un pourcentage. Les autres données de cette même ligne font une moyenne de 10,15 %. Par conséquent, la valeur de 45 000 % ressort du lot et est impossible dans ce contexte. Nous avons donc nettoyées ces données pour ensuite faire des analyses plus poussées.
+D’abord, plusieurs données avaient des erreurs de formatage. À titre d’exemple, les valeurs dans la ligne 7 n'étaient pas formatées de la même façon. Certaines de ces données étaient des chiffres alors que d’autres étaient des dates. De plus, nous avons remarqué que les colonnes M et N présentaient souvent des erreurs de formatage majeures (dans l’ensemble du jeu de donnée), ce qui rendait parfois nos valeurs aberrantes ou invalides. Par exemple, la valeur de la cellule M:7 affiche le chiffre 45 994, alors que cette ligne est censée afficher un pourcentage. Les autres données de cette même ligne font une moyenne de 10,15 %. Par conséquent, la valeur de 45 000 % ressort du lot et est impossible dans ce contexte. Nous avons donc nettoyé ces données pour ensuite faire des analyses plus poussées.
 
-À premier coup d'œil, les données des lignes que nous avons ciblées semblent toutes être valides. Il n’y a pas de données manquantes et il ne semble pas y avoir de données invalides ou aberrantes. Afin de confirmer ce constat, nous avons produit un premier graphique comme le suggère Statistique Canada pour assurer la qualité des données (2020). Le graphique ci-dessous, portant sur les lignes 7 et 8, nous a permis de confirmer qu’il n’y a évidemment pas de valeur aberrante. De plus, aucune valeur invalide ne fut soulevée. 
+À premier coup d'œil, les données des lignes que nous avons ciblées semblent toutes être valides. Il n’y a pas de données manquantes et il ne semble pas y avoir de données invalides ou aberrantes. Afin de confirmer ce constat, nous avons produit un premier graphique, comme le suggère Statistique Canada pour assurer la qualité des données (2020). Le graphique ci-dessous, portant sur les lignes 7 et 8, nous a permis de confirmer qu’il n’y a évidemment pas de valeur aberrante. De plus, aucune valeur invalide ne fut soulevée. 
 
 ![alt text](<VIMA - Graphique 1.png>)
 
@@ -71,54 +71,52 @@ Nous avons concentré notre analyse exploratoire sur les deux variables suivante
 * % de ménages locataires consacrant 30% ou plus de leur revenu aux frais de logement
 * % de ménages propriétaires consacrant 30% ou plus de leur revenu au frais de logement
 
-À notre avis, il s’agit des meilleures variables pour nous aider à comprendre s’il est plus plus avantageux d’être propriétaire ou locataire à Ottawa. C’est une chose que les prix des logements soient élevés ou non, mais il en est tout autre si les individus doivent dépenser plus de 30% de leur salaire en frais de logement, ce qui leur laisse moins d’argent pour d’autres dépenses essentielles. 
+À notre avis, il s’agit des meilleures variables pour nous aider à comprendre s’il est plus avantageux d’être propriétaire ou locataire à Ottawa. C’est une chose que les prix des logements soient élevés ou non, mais il en est tout autre si les individus doivent dépenser 30% ou plus de leur salaire en frais de logement, ce qui leur laisse moins d’argent pour d’autres dépenses essentielles. Par conséquent, les termes “propriétaires” et “locataires” dans la suite de cette section (3.3.) feront toujours référence à ceux consacrant 30 % ou plus de leur revenu aux frais de logement.
 
-Le fil conducteur de notre récit nous est apparu comme une évidence. Dès notre analyse VIMA, nous avons remarqué la différence marquante entre les locataires qui dépensent plus de 30% de leur revenu en frais de logement et les propriétaires, et ce, dans chaque quartier (AED - Graphique 1). Ces statistiques ont suscité en nous plusieurs questions. Nous tenterons donc de mieux comprendre ce phénomène lors de notre récit. 
+Le fil conducteur de notre récit nous est apparu comme une évidence. Dès notre analyse VIMA, nous avons remarqué la différence marquante entre les locataires et les propriétaires dans chaque quartier. Nous avons produit un nouveau graphique à barres regroupées afin de mieux illustrer la comparaison (Statistique Canada, 2021). Ces statistiques ont suscité en nous plusieurs questions. Nous tenterons donc de mieux comprendre ce phénomène lors de notre récit. 
 
 ![alt text](<AED - Graphique 1.png>)
 
-Nous nous sommes donc servis de cette analyse exploratoire pour essayer de mieux comprendre la situation au sein de chaque quartier afin de nous guider dans nos recherches. Pour y arriver, nous avons modifié notre tableau nettoyé afin de pouvoir y réaliser de nouvelles opérations, comme des filtres (voir la capture d’écran ci-dessous). L’usage d’un tableau croisé ne semblait pas pertinent avec nos types de données. 
+Voulant mieux comprendre la situation dans chaque quartier, nous nous sommes principalement servis de notre tableau pour obtenir de nouvelles informations. L’usage d’un tableau croisé ne semblait pas pertinent avec nos types de données. 
 
-Nous avons d’abord utilisé la formule suivante afin de connaître la différence exacte entre les ménages propriétaires et locataires au sein de chaque quartier. 
+Nous avons d’abord utilisé la formule suivante pour connaître la différence exacte entre les ménages propriétaires et locataires au sein de chaque quartier. 
 
 ```
 =H_-G_
 ```
 
-À l’aide de l’outil filtre, nous avons été en mesure de déterminer les 5 quartiers où les différences sont les plus grandes : 
+À l’aide de l’outil filtre, nous avons été en mesure de déterminer **les 5 quartiers avec les plus grandes différences** : 
 1. Quartier 4 - Kanata-Nord (34,70)
 1. Quartier 6 - Stittsville (29,80)
 1. Quartier 1 - Orléans Est-Cumberland (29,40)
 1. Quartier 20 - Osgoode (28)
 1. Quartier 2 - Orléans-Ouest-Innes (27,80)
 
-Nous avons également filtré les colonnes G et H afin de connaître les quartiers où les locataires et les propriétaires sont plus nombreux à dépenser 30% de leur revenu en frais de logement. Les résultats que nous avons obtenus sont les suivants : 
+Nous avons également filtré les colonnes G et H afin de connaître les quartiers où les locataires et les propriétaires sont plus nombreux à dépenser 30% ou plus de leur revenu en frais de logement.
 
-Locataires dépensant plus de 30% de leur revenu aux frais de logement
+**Locataires dépensant plus de 30% de leur revenu aux frais de logement**
 1. Quartier 4 - Kanata-Nord
 1. Quartier 6 - Stitsville
 1. Quartier 1 - Orléans Est-Cumberland
 1. Quartier 12 - Rideau-Vanier
 1. Quartier 17 - Capitale
 
-Propriétaires dépensant plus de 30% de leur revenu aux frais de logement
+**Propriétaires dépensant plus de 30% de leur revenu aux frais de logement**
 1. Quartier 12 - Rideau-Vanier
 1. Quartier 14 - Somerset
 1. Quarter 13 - Rideau-Rockcliffe
 1. Quartier 10 - Gloucester-Southgate
 1. Quartier 22 - Riverside Sud-Findlay Creek
 
-De plus, afin de voir la relation entre les propriétaires et les locataires dépensant plus de 30% de leur revenu en frais de logement au sein d’un même quartier, nous avons produit les graphiques circulaires ci-dessous (AED - Graphique 2). Cependant, ces statistiques font ressortir les mêmes quartiers vus plus haut, seulement dans des ordres différents.
+Ensuite, puisque les graphiques circulaires permettent de représenter des proportions sur une échelle de 100% (Statistiques Canada, 2021), nous les avons utilisés afin d’analyser la relation entre les propriétaires et les locataires au sein d’un même quartier. Cependant, les statistiques sont similaires à celles énumérées ci-dessus, seulement dans des ordres différents.
 
 ![alt text](AED.2.modifie.png)
 
-Une fois ces statistiques obtenues, nous avons produit la map suivante afin de voir si la dimension géographique pouvait révéler quelque chose.
+Nous voulions ensuite savoir si l’aspect géographique pouvait révéler quelque chose. Cette map semble indiquer que les différences entre les locataires et les propriétaires sont moins prononcées dans le centre de la ville, alors qu’il semble plus élevé dans les extrémités est et ouest. Bref, un autre angle intéressant sur lequel on pourra se tourner.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1viz8KoXwr55C5Ikc4AuZ7YAVbemK1Xk&ehbc=2E312F" width="640" height="480"></iframe>
+![alt text](<AED - Carte géographique.png>)
 
-Celui-ci semble indiquer que les plus grandes différences entre les locataires dépensant plus de 30% de leur revenu en frais de logement et les propriétaires ont principalement lieu dans les extrémités est et ouest de la ville. Bref, un autre angle intéressant sur lequel on pourra se tourner.
-
-C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analyse plus poussée des données afin de voir si d’autres variables, comme le revenu d’emploi moyen ou le pourcentage de gens travaillant à temps plein ou à temps partiel, pourrait expliquer cette différence. 
+C’est ce qui conclut notre analyse exploratoire. De toute évidence, une analyse plus poussée des données reste nécessaire afin de voir si d’autres variables pourraient expliquer cette différence. 
 
 
 ## 4. Récit potentiel
@@ -185,6 +183,8 @@ Lors de notre analyse exploratoire des données, nous aurions aimé pouvoir iden
 
 **Lectures obligatoires:**
 Du Canada Statistique Canada, G. (2021, September 2). Les statistiques : le pouvoir des données! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-fra.htm 
+
+Statistique Canada. (2020, 23 septembre). *Exactitude et validation des données : méthodes pour assurer la qualité des données*. Statistique Canada. https://www.statcan.gc.ca/fr/afc/litteratie-donnees/catalogue/892000062020008 
 
 Eads, D. (2016, October 15). How to “interview” a big pile of data. NPR. https://www.npr.org/sections/npr-training/2025/05/29/g-s1-67278/how-to-interview-a-big-pile-of-data 
 
