@@ -1,7 +1,3 @@
-## Template for the Exploratory Data Analysis (EDA) & Pitch
+## Résumé de notre analyse exploratoire de données et de notre proposition
 
-Here are the files for the term project of courses JOU4100 Digital Journalism II and JOU4500 Journalisme numérique II at the University of Ottawa, and MPAD2003 Introductory Data Storytelling offered at Carleton University.
-
-## Modèle pour le Analyse exploratoire de données (AED) et proposition
-
-Vous trouverez ici les fichiers pour le projet de session des cours JOU4100 Digital Journalism II et JOU4500 Journalisme numérique II à l'Université d'Ottawa, et du cours MPAD2003 Introductory Data Storytelling offert à l'Université Carleton.
+Notre analyse exploratoire est basée sur les données du *Questionnaire détaillé du recensement de 2021 - Données par quartier*. Nous nous sommes demandé s’il est plus avantageux d'être locataire ou propriétaire dans la ville d'Ottawa. Nous avons commencé par nettoyer nos données pour garder que les informations nécessaires pour notre sujet, pour ensuite réaliser une analyse VIMA pour assurer l’exactitude des données. Les statistiques les plus frappantes ont été la différence entre les ménages propriétaires et locataires dépensant 30% ou plus de leur revenu en frais de logement. Bref, nous avons décidé de centrer notre récit sur cet aspect.  
